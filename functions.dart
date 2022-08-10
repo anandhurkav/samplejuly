@@ -28,6 +28,7 @@ void show1(int a, {int? b , int?c}){
 void details(String name, {required int age , int? phone}){
   print('my name is $name am $age old my phone number is $phone');
 }
+//OPTIONAL PARAMTERIZED FUNCTION WITH DEFAULT VALUE
 void sum3(int a, int b, {int c= 90}){
   print('sum= ${a+b+c}');
 }

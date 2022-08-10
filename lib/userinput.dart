@@ -2,8 +2,8 @@ import 'dart:io';
 
 void main() {
   print('enter your name');
-  string name = "anu";
-String name = stdin.readLineSync()!;
+  String name = "anu";
+ name = stdin.readLineSync()!;
 print('my name is $name');
   print('enter u r age');
 
