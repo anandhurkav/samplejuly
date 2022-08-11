@@ -1,6 +1,9 @@
+import 'dart:io';
+
 void main(){
   print('enter your string');
- var  strng= ['nitin'];
+
+ String strng = stdin.readLineSync()!;
   int  length1, flag = 0;
   length1 = strng.length;
   for(int i=0; i < length1;i++){
@@ -15,3 +18,4 @@ void main(){
     print ('string is palindrome');
   }
 }
+List<int>
